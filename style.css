@@ -1,0 +1,39 @@
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+  }
+  .container{
+    flex: 1;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    border: solid 1px white;
+  }
+  .header {
+    border: solid 1px white;
+    height: 110px;
+  }
+  .col {
+    border: solid 1px white;
+    height: 70px;
+  }
+  body{
+    background-color: black;
+  }
+  @media (max-width: 1024px) {
+    .pricing-container{
+        flex-direction: column;
+    }
+    .container{
+      width: 400px;
+    }
+ }
+ span{
+  color: yellow;
+  font-weight: 800;
+ }
+ h2{
+  color: yellow;
+ }
