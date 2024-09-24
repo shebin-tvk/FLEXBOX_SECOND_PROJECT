@@ -10,6 +10,7 @@
     background-color: black;
     color: #fff;
     border: solid 1px white;
+    width: 400px;
   }
   .header {
     border: solid 1px white;
@@ -22,18 +23,16 @@
   body{
     background-color: black;
   }
+  span{
+    color: yellow;
+    font-weight: 800;
+  }
+  h2{
+    color: yellow;
+  }
   @media (max-width: 1024px) {
     .pricing-container{
         flex-direction: column;
     }
-    .container{
-      width: 400px;
-    }
  }
- span{
-  color: yellow;
-  font-weight: 800;
- }
- h2{
-  color: yellow;
- }
+
